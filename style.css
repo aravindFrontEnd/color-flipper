@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#card{
+    display:flex;
+    flex-direction: column;
+    width:10rem;
+    height:10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+}
+
+#btn{
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    top:75%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+    border:1px solid black;
+    padding: 0.50rem 2rem;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
